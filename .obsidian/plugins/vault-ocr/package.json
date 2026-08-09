@@ -1,0 +1,20 @@
+{
+  "name": "vault-ocr",
+  "version": "1.0.0",
+  "description": "Obsidian plugin that extracts text from pasted images using the Claude Code CLI.",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "^0.24.0",
+    "obsidian": "^1.7.2",
+    "typescript": "^5.7.2"
+  }
+}

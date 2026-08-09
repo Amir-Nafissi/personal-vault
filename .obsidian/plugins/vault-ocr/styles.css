@@ -1,0 +1,27 @@
+/* Vault OCR — styling for the [!ocr] callout type */
+
+.callout[data-callout="ocr"] {
+	--callout-color: 122, 162, 247;
+	--callout-icon: lucide-scan-text;
+}
+
+/* Extracted text is reference material, not prose — set it slightly back
+   from the body copy so a note full of callouts still reads cleanly. */
+.callout[data-callout="ocr"] .callout-content {
+	font-size: 0.9em;
+	color: var(--text-muted);
+}
+
+.callout[data-callout="ocr"] .callout-content pre,
+.callout[data-callout="ocr"] .callout-content code {
+	font-size: 0.95em;
+}
+
+/* Pending and failed states, keyed off the title text the plugin writes. */
+.callout[data-callout="ocr"][data-callout-metadata=""] .callout-title {
+	opacity: 0.85;
+}
+
+.vault-ocr-active {
+	color: var(--text-accent);
+}

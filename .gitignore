@@ -1,0 +1,14 @@
+# Vault OCR handoff files (agent → plugin), regenerated per extraction
+.ocr/out/
+
+# Plugin dependencies — reinstall with `npm install`
+.obsidian/plugins/*/node_modules/
+
+# NOTE: main.js (the compiled plugin) is intentionally committed. This is a
+# vault, not a source repo — cloning it on another machine should give you a
+# working plugin without needing Node installed.
+
+# Obsidian per-machine state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/

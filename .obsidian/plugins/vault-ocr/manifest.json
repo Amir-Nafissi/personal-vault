@@ -1,0 +1,9 @@
+{
+  "id": "vault-ocr",
+  "name": "Vault OCR",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Extracts text from pasted screenshots via your local Claude Code CLI, so image-based notes become searchable.",
+  "author": "Amir Nafissi",
+  "isDesktopOnly": true
+}
